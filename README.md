@@ -27,7 +27,7 @@ gcloud beta dataproc clusters create trino-cluster \
 
 ### Determining Trino server port
 
-The (official tutorial)[https://cloud.google.com/dataproc/docs/tutorials/trino-dataproc#trino_cli_queries] only shows us how to query Trino from the coordinator node directly.
+The [official tutorial](https://cloud.google.com/dataproc/docs/tutorials/trino-dataproc#trino_cli_queries) only shows us how to query Trino from the coordinator node directly.
 To connect from an external client we need to know the Trino server port.
 
 SSH to the coordinator node:
