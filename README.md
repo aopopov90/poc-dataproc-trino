@@ -90,3 +90,7 @@ Config example:
 connector.name=hive-hadoop2
 hive.metastore.uri=thrift://trino-cluster-m:9083
 ```
+
+# References
+
+- https://trino.io/blog/2020/10/20/intro-to-hive-connector.html
