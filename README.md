@@ -81,3 +81,12 @@ Connection: Keep-Alive
 Accept-Encoding: gzip
 --> END GET
 ```
+
+## Hive metastore (HMS)
+
+Config is located at `/usr/lib/trino/etc/catalog/hive.properties`.
+Config example:
+```
+connector.name=hive-hadoop2
+hive.metastore.uri=thrift://trino-cluster-m:9083
+```
